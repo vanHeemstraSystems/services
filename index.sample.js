@@ -3,7 +3,7 @@
  */
 var config = require('../configs/server.js');
 var configs = config.configs,
-    server_prefix = configs.server_prefix || 'CORE';
+    server_prefix = configs.server_prefix || 'PREFIX';
 console.log(server_prefix + " - Index service required.");
 /********************************************************************************************
  * INDEX READ
